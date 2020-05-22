@@ -12,22 +12,14 @@ function enterSite() {
   $("#register-side-bar").css("transform", "translate(0)");
 }
 
-$("#register-side-bar").mouseenter(function() {
-  openForm();
-})
-
-$("#register-side-bar").mouseleave(function() {
-  closeForm();
-})
-
-$("#empty-side").mouseenter(function() {
-  closeForm();
-})
+$("#visible-side").mouseenter(function() { openForm(); });
+$("#empty-side").mouseenter(function() { closeForm(); });
+$("#form").mouseleave(function() { closeForm(); });
 
 function openForm() {
   $("#register-side-bar").css("transform", "translate(-650px)");
   $("#register-side-bar").css("transition-delay", "0s");
-  $("#register-side-bar").css("z-index", "20");
+  $("#register-side-bar").css("z-index", "100");
   $("#call-number").css("opacity", "0")
   $("#register").css("opacity", "0")
 }

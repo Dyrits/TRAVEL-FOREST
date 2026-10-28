@@ -1,33 +1,38 @@
 # Travel Forest
 
-## More about this project
+A static website built with HTML, CSS and JavaScript, an Udemy course project.
 
-### Related course
-UDEMY | THE COMPLETE 2020 WEB DEVELOPER MASTER COURSE
+## About The Project
 
-### Description of the project by WEBSITE
+Travel Forest is a static website built while coding along with the related course.
 
-### Core technologies
+### Course
+
+Udemy - The Complete 2020 Web Developer Master Course
+
+### Built With
+
 - HTML5
 - CSS3
 - JavaScript
-
-#### Libraries, tools and frameworks:
 - Sass
 - jQuery
 
-### Details | Comments
-- Albeit this project was made coding along while following the related course, several changes have been made from the original project.  
+## Getting Started
 
-### CodePen
-You can find this project on CodePen.  
-URL: https://codepen.io/Dyrits/full/ExVrmqK
+Open `index.html` in a browser. No build step is required.
 
-### Status
-Finished
+## Notes
 
-#### Last update
-21/05/2020
+The following notes are from the original README:
 
-#### Last update (README.md)
-24/05/2020
+- Although this project was made coding along while following the related course, several changes were made from the original project.
+- The project is also available on CodePen: https://codepen.io/Dyrits/full/ExVrmqK
+
+## Status
+
+Finished (per the original README).
+
+## License
+
+No license file is present in this repository.
